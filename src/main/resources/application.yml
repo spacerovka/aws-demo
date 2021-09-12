@@ -1,2 +1,9 @@
 server:
   port: 8181
+
+aws:
+  dynamodb:
+    endpoint: http://localhost:8000/
+  credentials:
+    accesskey: key1
+    secretkey: key2
